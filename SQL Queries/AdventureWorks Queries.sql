@@ -37,7 +37,7 @@ INNER JOIN [HumanResources].[Employee] as HRE
 ON		P.[BusinessEntityID] = HRE.[BusinessEntityID]
 WHERE HRE.JobTitle LIKE '%Manager%';
 
---Policz ile jest managerów w firmie
+--Policz ilu jest managerów w firmie
 
 SELECT	COUNT(*)
 FROM	[Person].[Person] as P
@@ -65,7 +65,7 @@ ON	PP.PhoneNumberTypeID=PNT.PhoneNumberTypeID
 WHERE	PNT.Name = 'Home' AND P.FirstName ='Amanda' AND P.LastName = 'Adams';
 
 
--- Pokaż ile zostało złożonych zamówień na produkt o numer ID 870 (butelka wody)
+-- Pokaż ile zostało złożonych zamówień na produkt o numerze ID 870 (butelka wody)
 
 select	S.ProductID, P.[Name], COUNT([OrderQty]) AS [Orders]
 FROM Sales.SalesOrderDetail AS S
