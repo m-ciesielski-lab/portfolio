@@ -11,4 +11,4 @@ Tester repository
 
 # MS SQL Queries on AdventureWorks Database
 
-
+[SQL](https://github.com/m-ciesielski-lab/portfolio/blob/master/AdventureWorks%20Queries.sql)
