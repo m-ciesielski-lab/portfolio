@@ -17,7 +17,7 @@ Tester repository
 
 * [Report](https://htmlpreview.github.io/?https://github.com/m-ciesielski-lab/portfolio/blob/master/Report%20Trello%20API%20CRUD.html)
 
-newman run API.postman_collection.json -r htmlextra -g Testing.postman_globals.json
+[code]newman run API.postman_collection.json -r htmlextra -g Testing.postman_globals.json[/code]
 
 # MS SQL Queries on AdventureWorks Database
 
