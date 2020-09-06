@@ -15,7 +15,7 @@ Tester repository
 
 # Newman report Trello api testing
 
-* [Report](https://htmlpreview.github.io/?https://github.com/m-ciesielski-lab/portfolio/blob/master/Report%20Trello%20API%20CRUD.html)
+* [Report](https://drive.google.com/file/d/1Pyv64fk3Qpc4mLmSpTF0JelPBGp7Qt4J/view?usp=sharing)
 
 ```newman run API.postman_collection.json -r htmlextra -g Testing.postman_globals.json```
 
