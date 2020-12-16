@@ -17,3 +17,10 @@
 * https://www.youtube.com/watch?v=wqjzrL7rbdw
 
 Test data: https://www.generatedata.com
+
+Basic syntax
+
+```
+Alter table [Table Name] Alter Column [Column Name] 
+ADD MASKED WITH (FUNCTION=’[masking function]’)
+```
