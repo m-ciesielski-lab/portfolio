@@ -1,4 +1,4 @@
-# Dynamic Data Masking in SQL Sever
+# Dynamic Data Masking in SQL Sever :thumbsup:
 
 ## Resources
 
