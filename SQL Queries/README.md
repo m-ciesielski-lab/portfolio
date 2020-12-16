@@ -1,6 +1,6 @@
 # Dynamic Data Masking in SQL Server :thumbsup:
 
-## Resources
+## Resources  :point_down:
 
 **OFFICIAL DOCUMANTATION**: https://docs.microsoft.com/en-us/sql/relational-databases/security/dynamic-data-masking?view=sql-server-ver15
 
