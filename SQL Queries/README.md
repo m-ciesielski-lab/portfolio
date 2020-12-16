@@ -18,7 +18,7 @@
 
 Test data: https://www.generatedata.com
 
-Basic syntax
+## Basic syntax
 
 ```
 Alter table [Table Name] Alter Column [Column Name] 
