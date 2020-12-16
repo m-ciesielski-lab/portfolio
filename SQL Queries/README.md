@@ -24,3 +24,9 @@ Test data: https://www.generatedata.com
 Alter table [Table Name] Alter Column [Column Name] 
 ADD MASKED WITH (FUNCTION=’[masking function]’)
 ```
+
+### Default data masking 
+
+```
+(FUNCTION ='default()')
+```
