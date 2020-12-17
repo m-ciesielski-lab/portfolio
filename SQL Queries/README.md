@@ -36,7 +36,7 @@ ADD MASKED WITH (FUNCTION=’[masking function]’)
 
 ### Random data masking 
 ```
-(FUNCTION = 'random([start range], [end range])')
+(FUNCTION = 'random([start range], [end range])') Example: ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [LoginID] ADD MASKED WITH (FUNCTION = 'random(1, 5)')
 ```
 
 ### Partial data masking 
