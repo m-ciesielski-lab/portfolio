@@ -56,7 +56,7 @@ Example:
 ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Phone] ADD MASKED WITH (FUNCTION = 'partial(3,"XXX",0)')
 ```
 
-### :round_pushpin:Querying for Masked Columns  :
+### :round_pushpin: Querying for Masked Columns  :
 ```
 SELECT c.name, tbl.name as table_name, c.is_masked, c.masking_function  
 FROM sys.masked_columns AS c  
