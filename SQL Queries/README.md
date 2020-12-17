@@ -21,7 +21,7 @@ Test data: https://www.generatedata.com
 ## Basic syntax
 ```
 ALTER TABLE [Table Name] ALTER COLUMN [Column Name] 
-ADD MASKED WITH (FUNCTION=’[masking function]’)
+ADD MASKED WITH (FUNCTION = ’[masking function]’)
 ```
 
 ### Default data masking 
