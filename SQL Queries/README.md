@@ -20,7 +20,7 @@ Test data: https://www.generatedata.com
 
 ## Basic syntax
 ```
-Alter table [Table Name] Alter Column [Column Name] 
+ALTER TABLE [Table Name] ALTER COLUMN [Column Name] 
 ADD MASKED WITH (FUNCTION=’[masking function]’)
 ```
 
