@@ -19,14 +19,27 @@
 Test data: https://www.generatedata.com
 
 ## Basic syntax
-
 ```
 Alter table [Table Name] Alter Column [Column Name] 
 ADD MASKED WITH (FUNCTION=’[masking function]’)
 ```
 
 ### Default data masking 
-
 ```
 (FUNCTION ='default()')
+```
+
+### Email data masking 
+```
+(FUNCTION = 'email()')
+```
+
+### Random data masking 
+```
+(FUNCTION = 'random([start range], [end range])')
+```
+
+### Partial data masking 
+```
+(FUNCTION = 'partial(prefix,[padding],suffix)')
 ```
