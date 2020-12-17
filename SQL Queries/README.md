@@ -29,7 +29,7 @@ ADD MASKED WITH (FUNCTION = ’[masking function]’)
 (FUNCTION ='default()')
 
 Example:
-ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [DateOfBirth] DATE MASKED WITH (FUNCTION = 'default()')
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [DateOfBirth] ADD MASKED WITH (FUNCTION = 'default()')
 ```
 
 ### Email data masking 
