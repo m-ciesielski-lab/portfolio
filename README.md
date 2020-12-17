@@ -11,7 +11,7 @@ Tester repository
 
 # API Trello testing in Postman
 
-# API Trello Documentation - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
+API Trello Documentation - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
 
 * [Trello API.postman_collection.json](https://github.com/m-ciesielski-lab/portfolio/blob/master/Postman%20Collection/Trello%20API.postman_collection.json)
 * [Trello API.postman_test_report.json](https://github.com/m-ciesielski-lab/portfolio/blob/master/Postman%20Collection/Trello%20API.postman_test_report.json)
