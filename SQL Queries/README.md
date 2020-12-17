@@ -27,23 +27,31 @@ ADD MASKED WITH (FUNCTION=’[masking function]’)
 ### Default data masking 
 ```
 (FUNCTION ='default()')
+
+Example:
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [DateOfBirth] DATE MASKED WITH (FUNCTION = 'default()')
 ```
 
 ### Email data masking 
 ```
 (FUNCTION = 'email()')
+
+Example:
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Email] ADD MASKED WITH (FUNCTION = 'email()')
 ```
 
 ### Random data masking 
 ```
 (FUNCTION = 'random([start range], [end range])') 
 
-**Example:** 
-
+Example:
 ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [LoginID] ADD MASKED WITH (FUNCTION = 'random(1, 5)')
 ```
 
 ### Partial data masking 
 ```
 (FUNCTION = 'partial(prefix,[padding],suffix)')
+
+Example:
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Phone] ADD MASKED WITH (FUNCTION = 'partial(3,"XXX",0)')
 ```
