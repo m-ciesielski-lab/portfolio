@@ -38,7 +38,7 @@ ADD MASKED WITH (FUNCTION=’[masking function]’)
 ```
 (FUNCTION = 'random([start range], [end range])') 
 
-#### Example: 
+**Example:** 
 
 ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [LoginID] ADD MASKED WITH (FUNCTION = 'random(1, 5)')
 ```
