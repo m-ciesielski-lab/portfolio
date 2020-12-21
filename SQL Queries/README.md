@@ -22,6 +22,21 @@ Test data: https://www.generatedata.com
 
 ![Type date](https://i.imgur.com/ljMUpUj.jpg)
 
+## Create Users as Marcin and Joanna
+```
+DROP USER IF EXISTS Marcin;
+CREATE USER Marcin WITHOUT LOGIN
+GRANT SELECT ON MaskingTable TO Marcin
+GO
+
+DROP USER IF EXISTS Joanna;
+CREATE USER Joanna WITHOUT LOGIN
+GRANT SELECT ON MaskingTable TO Joanna
+GO
+```
+![Type date](https://i.imgur.com/OIcfytH.jpg)
+
+
 ## Basic syntax
 ```
 ALTER TABLE [Table Name] ALTER COLUMN [Column Name] 
@@ -74,7 +89,6 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [LoginID] ADD MASKED WITH (FUNCTIO
 ![Type date](https://i.imgur.com/1fLjkcI.jpg)
 
 
-
 ### Dropping Mask
 ```
 ALTER TABLE [Table Name] ALTER COLUMN [Column Name] DROP MASKED
@@ -91,3 +105,26 @@ JOIN sys.tables AS tbl
     ON c.object_id = tbl.object_id
 WHERE is_masked = 1; 
 ```
+![Type date](https://i.imgur.com/0dQhDgg.jpg)
+
+### Permissions to View Unmasked Data
+
+```
+GRANT UNMASK TO Marcin;
+GO
+
+EXECUTE AS USER = 'Marcin';
+	SELECT * FROM MaskingTable;
+REVERT;
+
+EXECUTE AS USER = 'Joanna';
+	SELECT * FROM MaskingTable;
+REVERT;
+```
+
+Results:
+
+![Type date](https://i.imgur.com/9OF89Kt.jpeg)
+
+
+
