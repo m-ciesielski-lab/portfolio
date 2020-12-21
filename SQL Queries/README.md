@@ -25,7 +25,7 @@ Test data: https://www.generatedata.com
 ## Basic syntax
 ```
 ALTER TABLE [Table Name] ALTER COLUMN [Column Name] 
-ADD MASKED WITH (FUNCTION = ’[masking function]’)
+ADD MASKED WITH (FUNCTION = '[masking function]')
 ```
 
 ### Default data masking 
@@ -36,6 +36,15 @@ Example:
 ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [FirstName] ADD MASKED WITH (FUNCTION = 'default()')
 ```
 ![Type date](https://i.imgur.com/yEeCXXQ.jpg)
+
+### Default data masking for date and time data types
+```
+(FUNCTION ='default()')
+
+Example:
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [DateOfBirth] ADD MASKED WITH (FUNCTION = 'default()')
+```
+![Type date](https://i.imgur.com/MAALXlk.jpg)
 
 ### Email data masking 
 ```
