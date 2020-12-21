@@ -26,4 +26,4 @@ API Trello Documentation - https://developer.atlassian.com/cloud/trello/rest/api
 
 * [SQL Queries](https://github.com/m-ciesielski-lab/portfolio/blob/master/SQL%20Queries/AdventureWorks%20Queries.sql)
 * [SQL Query example](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/SQL%20Queries/Query.jpg)
-* [Dynamic Data Masking](-)
+* [Dynamic Data Masking](https://github.com/m-ciesielski-lab/portfolio/blob/master/SQL%20Queries/Dynamic%20Data%20Masking.sql)
