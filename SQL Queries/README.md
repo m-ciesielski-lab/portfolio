@@ -18,6 +18,10 @@
 
 Test data: https://www.generatedata.com
 
+## Testing data
+
+![Type date](https://i.imgur.com/ljMUpUj.jpg)
+
 ## Basic syntax
 ```
 ALTER TABLE [Table Name] ALTER COLUMN [Column Name] 
@@ -29,9 +33,9 @@ ADD MASKED WITH (FUNCTION = ’[masking function]’)
 (FUNCTION ='default()')
 
 Example:
-ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [DateOfBirth] ADD MASKED WITH (FUNCTION = 'default()')
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [FirstName] ADD MASKED WITH (FUNCTION = 'default()')
 ```
-![Type date](https://i.imgur.com/OAn1sUw.jpg)
+![Type date](https://i.imgur.com/yEeCXXQ.jpg)
 
 ### Email data masking 
 ```
@@ -40,22 +44,27 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [DateOfBirth] ADD MASKED WITH (FUN
 Example:
 ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Email] ADD MASKED WITH (FUNCTION = 'email()')
 ```
-
-### Random data masking 
-```
-(FUNCTION = 'random([start range], [end range])') 
-
-Example:
-ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [LoginID] ADD MASKED WITH (FUNCTION = 'random(1, 5)')
-```
+![Type date](https://i.imgur.com/3K8XMKc.jpg)
 
 ### Partial data masking 
 ```
 (FUNCTION = 'partial(prefix,[padding],suffix)')
 
 Example:
-ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Phone] ADD MASKED WITH (FUNCTION = 'partial(3,"XXX",0)')
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Phone] ADD MASKED WITH (FUNCTION = 'partial(3,"-XXX-XXX",0)')
 ```
+![Type date](https://i.imgur.com/H82rjfw.jpg)
+
+### Random data masking 
+```
+(FUNCTION = 'random([start range], [end range])') 
+
+Example:
+ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [LoginID] ADD MASKED WITH (FUNCTION = 'random(100, 200)')
+```
+![Type date](https://i.imgur.com/1fLjkcI.jpg)
+
+
 
 ### Dropping Mask
 ```
