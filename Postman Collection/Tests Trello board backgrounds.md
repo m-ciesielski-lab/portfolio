@@ -1,1 +1,1 @@
-# Create and tests board backgrounds ins Trello app
+# Create and tests board backgrounds in Trello app
