@@ -18,7 +18,7 @@ In this case, we also want to check, how can we add or change a board background
 
 Nice! Now we have information, we can use.
 
-1. Use `POST` request method from HTTP to create a resource 
+1. Use `POST` request method from HTTP to add new data 
 2. Our endpoint should include `/1/boards/` to send a request
 3. Need to pay attention to required query parameters:
     * key
