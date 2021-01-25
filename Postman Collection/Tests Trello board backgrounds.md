@@ -1,11 +1,14 @@
 #  :pushpin: Create and tests board backgrounds in Trello app
 
-###   :one: Read Trello documentation about how to create, read, update and delete boards
+###   Read Trello documentation about how to create, read, update and delete boards
 
 ---
+
+
+:one: We want to create a new board. So take a look on `Create a Board tab`.
+
 Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
 
-We want to create a new board. So take a look on `Create a Board tab`.
 
 ![Type date](https://i.imgur.com/YgFHKi1.jpg)
 
@@ -24,10 +27,67 @@ Nice! Now we have information, we can use.
     * key
     * token
     * name
-    * prefs_background
+    (optional, but in this case needed) prefs_background
+    
+---
 
-###   :two: Open Postman and create 4 requests, add variables and query parameters 
-###   :three: Write some tests to each request
-###   :four: Create collection and run collection runner. Check the results
-###   :five: Run Newman and create Test report
+:two: After created new board with needed parameters, we want to retrieve data. To check if everything is as we wanted.
+
+Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
+
+
+![Type date](https://i.imgur.com/0EOLVPc.jpg)
+
+---
+
+1. Use `GET` request method from HTTP to retrieve new data 
+2. Our endpoint should include `/1/boards/{id}` to send a request
+3. Need to pay attention to required query parameters:
+   * key
+   * token
+   * id (it will be a board id)
+
+---
+
+:three: Now it's time to update our board. Let's change background color and board name for example.
+
+Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
+
+
+![Type date](https://i.imgur.com/aRHQ5It.jpg)
+
+---
+
+1. Use `PUT` request method from HTTP to modify a singular resource which is already a part of resource. In other words, to change/update existing resource. 
+2. Our endpoint should include `/1/boards/{id}` to send a request
+3. Need to pay attention to required query parameters:
+   * key
+   * token
+   * id (it will be a board id)
+   (optional) name
+   (optional) prefs/background
+  
+---
+
+:four: In the end, we have to clean up and delete all resources
+
+Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
+
+![Type date](https://i.imgur.com/aIuOhrJ.jpg)
+
+---
+
+1. Use `DELETE` request method from HTTP to delete the specified resource. In this case, is our board. All of it
+2. Our endpoint should include `/1/boards/{id}` to send a request 
+3. Need to pay attention to required query parameters:
+   * key
+   * token
+   * id (it will be a board id)
+   
+---
+
+###   Open Postman and create 4 requests, add variables and query parameters 
+###   Write some tests to each request
+###   Create collection and run collection runner. Check the results
+###   Run Newman and create Test report
 
