@@ -17,7 +17,6 @@ In this case, we also want to check, how can we add or change a board background
 
 ![Type date](https://i.imgur.com/HwWx5K5.jpg)
 
----
 
 Nice! Now we have information, we can use.
 
@@ -38,7 +37,6 @@ Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
 
 ![Type date](https://i.imgur.com/0EOLVPc.jpg)
 
----
 
 1. Use `GET` request method from HTTP to retrieve new data 
 2. Our endpoint should include `/1/boards/{id}` to send a request
@@ -56,7 +54,6 @@ Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
 
 ![Type date](https://i.imgur.com/aRHQ5It.jpg)
 
----
 
 1. Use `PUT` request method from HTTP to modify a singular resource which is already a part of resource. In other words, to change/update existing resource. 
 2. Our endpoint should include `/1/boards/{id}` to send a request
