@@ -1,4 +1,4 @@
-#  :pushpin: Create and tests board backgrounds in Trello app
+#  :pushpin: Create and test boards in Trello app
 
 ###   Read Trello documentation about how to create, read, update and delete boards
 
