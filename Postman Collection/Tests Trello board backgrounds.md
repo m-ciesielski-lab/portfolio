@@ -27,7 +27,7 @@ Nice! Now we have information, we can use.
     * key
     * token
     * name
-    (optional, but in this case needed) prefs_background
+    * (optional, but in this case needed) prefs_background
     
 ---
 
@@ -64,8 +64,8 @@ Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
    * key
    * token
    * id (it will be a board id)
-   (optional) name
-   (optional) prefs/background
+   * (optional) name
+   * (optional) prefs/background
   
 ---
 
