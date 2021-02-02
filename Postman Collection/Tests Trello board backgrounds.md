@@ -83,7 +83,7 @@ Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
    
 ---
 
-###   Collections,requests, variables and query parameters
+###   Collections, requests, variables and query parameters
 
 --- 
 In this part (after read docs) we finally run Postman. Start from get key and token, to get access to our user Trello data. After this we can read and write items in application. In simple words: Make requests (`POST, GET, PUT,DELETE`), create variables, query parameters and puts into collection. We can start working! Let's go!
@@ -93,7 +93,7 @@ In this part (after read docs) we finally run Postman. Start from get key and to
 ![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/title-trello-collection(1).gif)
 
 
-###   Write some tests to each request
-###   Run collection runner. Check the results
-###   Run Newman and create Test report
+###   Tests tab
+###   Collection runner. Check the results
+###   Run Newman and prepare report
 
