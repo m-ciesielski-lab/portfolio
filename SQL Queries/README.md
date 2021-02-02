@@ -23,7 +23,7 @@ Test data: https://www.generatedata.com
 ![Type date](https://i.imgur.com/ljMUpUj.jpg)
 
 ## Create Users as Marcin and Joanna
-```
+```sql
 DROP USER IF EXISTS Marcin;
 CREATE USER Marcin WITHOUT LOGIN
 GRANT SELECT ON MaskingTable TO Marcin
