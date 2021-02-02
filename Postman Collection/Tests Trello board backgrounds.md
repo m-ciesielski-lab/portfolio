@@ -101,7 +101,9 @@ Open Postman and create new collection :point_down:
 
 Title of collection will be ```Check background and board title in Trello app```. Collection groups many requests in very specific order. Of course collection with one request it doesn't make sense. But we need to look in wide open mind. After all requests we want, collection runner helps and speed up our tests.
 
-### `POST` /1/boards/
+### `POST` /boards/
+
+Time to add a first request. As we know from HTTP and Trello docs to create a new board, we have to use `POST` method to send data to `/boards/` endpoint. We also enter information as title and background in request data.
 
 ##    Tests tab
 ##    Collection runner. Check the results
