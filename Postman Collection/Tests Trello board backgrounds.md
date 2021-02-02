@@ -90,7 +90,7 @@ In this part (after read docs) we finally run Postman. Start from get key and to
 
 ---
 
-![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/title-trello-collection.gif)
+![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/title-trello-collection(1).gif)
 
 
 ###   Write some tests to each request
