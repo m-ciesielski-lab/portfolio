@@ -90,7 +90,7 @@ In this part (after read docs) we finally run Postman. Start from get key and to
 
 ---
 
-
+![Type date](https://giant.gfycat.com/HotLiveInsect.webm)
 
 
 ###   Write some tests to each request
