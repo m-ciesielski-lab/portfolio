@@ -90,6 +90,7 @@ In this part (after read docs) we finally run Postman. Start from get key and to
 
 ---
 
+![Type date](https://i.imgur.com/2kVihX8.mp4)
 
 
 
