@@ -92,7 +92,7 @@ In this part (after read docs) we finally run Postman. Start from get key and to
 
 Open URL https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introduction/
 
-Key and token is a crucial thing to go forward. When you get a API key and token, ```you can use them to start making requests```
+Key and token is a crucial thing to go forward. When you get a API key and token, >you can use them to start making requests.
 
 ---
 
