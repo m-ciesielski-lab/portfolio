@@ -101,6 +101,8 @@ Open Postman and create new collection :point_down:
 
 Title of collection will be ```Check background and board title in Trello app```. Collection groups many requests in very specific order. Of course collection with one request it doesn't make sense. But we need to look in wide open mind. After all requests we want, collection runner helps and speed up our tests.
 
+### `POST` /1/boards/
+
 ##    Tests tab
 ##    Collection runner. Check the results
 ##    Run Newman and prepare report
