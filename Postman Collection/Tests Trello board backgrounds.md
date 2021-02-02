@@ -1,6 +1,6 @@
 #  :pushpin: Create and test boards in Trello app
 
-###   Read Trello documentation about how to create, read, update and delete boards
+##   Read Trello documentation about how to create, read, update and delete boards
 
 ---
 
@@ -83,7 +83,7 @@ Open URL - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
    
 ---
 
-###   Collections, requests, variables and query parameters
+##    Collections, requests, variables and query parameters
 
 --- 
 In this part (after read docs) we finally run Postman. Start from get key and token, to get access to our user Trello data. After this we can read and write items in application. In simple words: Make requests (`POST, GET, PUT,DELETE`), create variables, query parameters and puts into collection. We can start working! Let's go!
@@ -102,7 +102,7 @@ Open Postman and create new collection :point_down:
 
 Title of collection will be ```Check background and board title in Trello app```. Collection groups many requests in very specific order. Of course collection with one request it doesn't make sense. But we need to look in wide open mind. After all requests we want, collection runner helps and speed up our tests.
 
-###   Tests tab
-###   Collection runner. Check the results
-###   Run Newman and prepare report
+##    Tests tab
+##    Collection runner. Check the results
+##    Run Newman and prepare report
 
