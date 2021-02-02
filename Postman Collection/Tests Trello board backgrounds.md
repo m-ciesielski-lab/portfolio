@@ -94,7 +94,6 @@ Open URL https://developer.atlassian.com/cloud/trello/guides/rest-api/api-introd
 
 > Key and token is a crucial thing to go forward. When you get a API key and token, you can use them to start making requests.
 
----
 
 Open Postman and create new collection :point_down:
 
