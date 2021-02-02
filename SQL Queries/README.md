@@ -38,13 +38,13 @@ GO
 
 
 ## Basic syntax
-```
+```sql
 ALTER TABLE [Table Name] ALTER COLUMN [Column Name] 
 ADD MASKED WITH (FUNCTION = '[masking function]')
 ```
 
 ### Default data masking 
-```
+```sql
 (FUNCTION ='default()')
 
 Example:
@@ -53,7 +53,7 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [FirstName] ADD MASKED WITH (FUNCT
 ![Type date](https://i.imgur.com/yEeCXXQ.jpg)
 
 ### Default data masking for date and time data types
-```
+```sql
 (FUNCTION ='default()')
 
 Example:
@@ -62,7 +62,7 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [DateOfBirth] ADD MASKED WITH (FUN
 ![Type date](https://i.imgur.com/MAALXlk.jpg)
 
 ### Email data masking 
-```
+```sql
 (FUNCTION = 'email()')
 
 Example:
@@ -71,7 +71,7 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Email] ADD MASKED WITH (FUNCTION 
 ![Type date](https://i.imgur.com/3K8XMKc.jpg)
 
 ### Partial data masking 
-```
+```sql
 (FUNCTION = 'partial(prefix,[padding],suffix)')
 
 Example:
@@ -80,7 +80,7 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Phone] ADD MASKED WITH (FUNCTION 
 ![Type date](https://i.imgur.com/H82rjfw.jpg)
 
 ### Random data masking 
-```
+```sql
 (FUNCTION = 'random([start range], [end range])') 
 
 Example:
@@ -90,7 +90,7 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [LoginID] ADD MASKED WITH (FUNCTIO
 
 
 ### Dropping Mask
-```
+```sql
 ALTER TABLE [Table Name] ALTER COLUMN [Column Name] DROP MASKED
 
 Example:
@@ -98,7 +98,7 @@ ALTER TABLE [dbo].[MaskingTable] ALTER COLUMN [Email] DROP MASKED
 ```
 
 ### :round_pushpin: Querying for Masked Columns
-```
+```sql
 SELECT c.name, tbl.name as table_name, c.is_masked, c.masking_function  
 FROM sys.masked_columns AS c  
 JOIN sys.tables AS tbl   
@@ -109,7 +109,7 @@ WHERE is_masked = 1;
 
 ### Permissions to View Unmasked Data
 
-```
+```sql
 GRANT UNMASK TO Marcin;
 GO
 
