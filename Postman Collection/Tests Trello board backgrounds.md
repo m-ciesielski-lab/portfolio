@@ -105,6 +105,8 @@ Title of collection will be ```Check background and board title in Trello app```
 
 Time to add a first request. As we know from HTTP and Trello docs to create a new board, we have to use `POST` method to send data to `/boards/` endpoint. We also enter information as title and background in request data.
 
+![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/post%20-%20create%20a%20new%20board.gif)
+
 ##    Tests tab
 ##    Collection runner. Check the results
 ##    Run Newman and prepare report
