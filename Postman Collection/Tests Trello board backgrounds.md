@@ -132,6 +132,7 @@ key                           key (yourKey)
 token                         token (yourToken)
 ```
 
+![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
 ##    Tests tab
 ##    Collection runner. Check the results
