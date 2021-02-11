@@ -123,6 +123,14 @@ Something going on. In query details, we see two parameters. Key and token. As w
     * (optional, but in this case needed) prefs_background
 ```
 
+Let's complete key and token with valid data. We also add URL address as page in variable settings.
+
+```
+
+https://api.trello.com/1      page
+key                           key (yourKey)
+token                         token (yourToken)
+```
 
 
 ##    Tests tab
