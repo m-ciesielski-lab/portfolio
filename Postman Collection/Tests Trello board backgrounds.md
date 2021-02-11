@@ -107,6 +107,12 @@ Time to add a first request. As we know from HTTP and Trello docs to create a ne
 
 ![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/post%20-%20create%20a%20new%20board.gif)
 
+Now We need to add URL address. In Trello documentation We can see a few examples:
+
+> Example: 'https://api.trello.com/1/boards?key={yourKey}&token={yourToken}'
+
+
+
 ##    Tests tab
 ##    Collection runner. Check the results
 ##    Run Newman and prepare report
