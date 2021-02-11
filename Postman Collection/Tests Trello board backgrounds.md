@@ -113,6 +113,16 @@ Now We need to add URL address. In Trello documentation We can see a few example
 
 ![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/first-call-api.gif)
 
+Something going on. In query details, we see two parameters. Key and token. As we known from docs to create board Trello API required parameters as key, token and name.
+
+```
+3. Need to pay attention to required query parameters:
+    * key
+    * token
+    * name
+    * (optional, but in this case needed) prefs_background
+```
+
 
 
 ##    Tests tab
