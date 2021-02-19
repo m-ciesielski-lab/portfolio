@@ -127,7 +127,7 @@ Let's complete key and token with valid data. We also add URL address as page in
 
 ```
 
-https://api.trello.com/1      page
+https://api.trello.com/1/      page
 key                           key (yourKey)
 token                         token (yourToken)
 ```
@@ -140,7 +140,7 @@ From this article, we know that to use our variables, we need to use double curl
 
 For example:
 
-This `https://api.trello.com/1` is our value for `page` variable. Now we know, to use double curly brackets. So for now, our endpoint should look like this: `{{page}}`
+This `https://api.trello.com/1/` is our value for `page` variable. Now we know, to use double curly brackets. So for now, our endpoint should look like this: `{{page}}`
 
 But this is only a part from our endpoint. We need to add `key` and `token`:
 
