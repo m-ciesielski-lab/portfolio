@@ -149,7 +149,7 @@ But this is only a part from our endpoint. We need to add `key` and `token`:
 
 Without variables
 
-> Example: 'https://api.trello.com/1/boards/?key={yourKey}&token={yourToken}'
+> https://api.trello.com/1/boards/?key={yourKey}&token={yourToken}
 
 With viariables 
 
