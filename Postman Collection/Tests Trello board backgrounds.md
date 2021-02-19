@@ -120,7 +120,7 @@ Something going on. In query details, we see two parameters. Key and token. As w
     * key
     * token
     * name
-    * (optional, but in this case needed) prefs_background
+    * prefs_background (optional, but in this case needed) 
 ```
 
 Let's complete key and token with valid data. We also add URL address as page in variable settings.
