@@ -109,7 +109,7 @@ Time to add a first request. As we know from HTTP and Trello docs to create a ne
 
 Now We need to add URL address. In Trello documentation We can see a few examples:
 
-> Example: 'https://api.trello.com/1/boards?key={yourKey}&token={yourToken}'
+> Example: 'https://api.trello.com/1/boards/?key={yourKey}&token={yourToken}'
 
 ![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/first-call-api.gif)
 
@@ -131,6 +131,32 @@ https://api.trello.com/1      page
 key                           key (yourKey)
 token                         token (yourToken)
 ```
+
+
+> Source:https://learning.postman.com/docs/sending-requests/variables/#understanding-variables
+
+Let's try to use our variables in practice
+From this article, we know that to use our variables, we need to use double curly brackets. And put inside our variable. 
+
+For example:
+
+This `https://api.trello.com/1` is our value for `page` variable. Now we know, to use double curly brackets. So for now, our endpoint should look like this: `{{page}}`
+
+But this is only a part from our endpoint. We need to add `key` and `token`:
+
+`yourKey` is a value for `key` variable
+`yourToken` is a value for `token` variable
+
+Without variables
+
+> Example: 'https://api.trello.com/1/boards/?key={yourKey}&token={yourToken}'
+
+With viariables 
+
+> {{page}}boards/?key={{key}}&token={{token}}
+
+
+
 
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
