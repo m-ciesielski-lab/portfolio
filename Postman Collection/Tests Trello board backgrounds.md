@@ -133,7 +133,7 @@ token                         token (yourToken)
 ```
 
 
-> Source:https://learning.postman.com/docs/sending-requests/variables/#understanding-variables
+> Source: https://learning.postman.com/docs/sending-requests/variables/#understanding-variables
 
 Let's try to use our variables in practice
 From this article, we know that to use our variables, we need to use double curly brackets. And put inside our variable. 
