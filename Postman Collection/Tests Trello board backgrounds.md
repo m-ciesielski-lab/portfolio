@@ -127,7 +127,7 @@ Let's complete key and token with valid data. We also add URL address as page in
 
 ```
 
-https://api.trello.com/1/      page
+https://api.trello.com/1/     page
 key                           key (yourKey)
 token                         token (yourToken)
 ```
