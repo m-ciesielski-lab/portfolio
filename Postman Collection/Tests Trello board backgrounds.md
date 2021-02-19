@@ -146,6 +146,7 @@ This `https://api.trello.com/1/` is our value for `page` variable. Now we know, 
 But this is only a part from our endpoint. We need to add `key` and `token`:
 
 `yourKey` is a value for `key` variable
+
 `yourToken` is a value for `token` variable
 
 Without variables
