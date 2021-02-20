@@ -174,6 +174,7 @@ To change background let's pick up different color that default ( in this case b
 
 `green` is a value for `prefs_background` parameter
 
+![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/POST%20Full%20URL.gif)
 
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
