@@ -149,15 +149,30 @@ But this is only a part from our endpoint. We need to add `key` and `token`:
 
 `yourToken` is a value for `token` variable
 
-Without variables
+Without variables:
 
 > https://api.trello.com/1/boards/?key={yourKey}&token={yourToken}
 
-With viariables 
+With variables:
 
 > {{page}}boards/?key={{key}}&token={{token}}
 
+To complete full endpoint address, we need to add 2 more parameters. Board name and background color. 
 
+`Test board` is a value for `name` parameter
+
+And for background color we need to use `prefs_background` parameter from Trello docs. We also know:
+
+```
+Default: blue
+
+Valid values: blue, orange, green, red, purple, pink, lime, sky, grey
+
+```
+
+To change background let's pick up different color that default ( in this case blue). I choose green.
+
+`green` is a value for `prefs_background` parameter
 
 
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
