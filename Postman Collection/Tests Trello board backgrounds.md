@@ -176,6 +176,67 @@ To change background let's pick up different color that default ( in this case b
 
 ![Type date](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/POST%20Full%20URL.gif)
 
+Well, looks like all fields are filled. Of course this is really basic concept, but for this example should be enough to check Postman potential in API testing.
+Let's send our `POST` /boards request!
+
+![Response display](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/POST-request-results.gif)
+
+And We have response from Trello API!
+
+```json
+
+{
+    "id": "6033e7cc1c7ae042d07e487e",
+    "name": "Test Board",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "5fac8b7e9daf3772c7d5d023",
+    "idEnterprise": null,
+    "pinned": false,
+    "url": "https://trello.com/b/JttAQVyj/test-board",
+    "shortUrl": "https://trello.com/b/JttAQVyj",
+    "prefs": {
+        "permissionLevel": "private",
+        "hideVotes": false,
+        "voting": "disabled",
+        "comments": "members",
+        "invitations": "members",
+        "selfJoin": true,
+        "cardCovers": true,
+        "isTemplate": false,
+        "cardAging": "regular",
+        "calendarFeedEnabled": false,
+        "background": "green",
+        "backgroundImage": null,
+        "backgroundImageScaled": null,
+        "backgroundTile": false,
+        "backgroundBrightness": "dark",
+        "backgroundColor": "#519839",
+        "backgroundBottomColor": "#519839",
+        "backgroundTopColor": "#519839",
+        "canBePublic": true,
+        "canBeEnterprise": true,
+        "canBeOrg": true,
+        "canBePrivate": true,
+        "canInvite": true
+    },
+    "labelNames": {
+        "green": "",
+        "yellow": "",
+        "orange": "",
+        "red": "",
+        "purple": "",
+        "blue": "",
+        "sky": "",
+        "lime": "",
+        "pink": "",
+        "black": ""
+    },
+    "limits": {}
+}
+```
+
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
 ##    Tests tab
