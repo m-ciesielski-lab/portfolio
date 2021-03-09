@@ -237,6 +237,39 @@ And We have response from Trello API!
 }
 ```
 
+A quick look at response in json, that we got from the app Trello.We have all the query parameters specified, but now need to check two things. Board name and board colour.
+
+Let's see:
+
+In json we have key like `name` and the value is `Test Board`. So this is correct. 
+
+```json
+
+    "name": "Test Board",
+
+```
+
+Next is background board. In json we have key like  `prefs`. And in this key we have another `object`. What we looking for is background.  So path in json to check background colour is `prefs.background`. And now we see: key: `background` value: `green`.
+
+```json
+
+"prefs": {
+        "permissionLevel": "private",
+        "hideVotes": false,
+        "voting": "disabled",
+        "comments": "members",
+        "invitations": "members",
+        "selfJoin": true,
+        "cardCovers": true,
+        "isTemplate": false,
+        "cardAging": "regular",
+        "calendarFeedEnabled": false,
+        "background": "green",
+ }      
+```
+
+It's works!
+
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
 ##    Tests tab
