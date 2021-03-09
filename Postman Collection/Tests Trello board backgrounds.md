@@ -269,7 +269,7 @@ Next is background board. In json we have key like  `prefs`. And in this key we 
  }      
 ```
 
-It's works!
+It works! In the next part, we will use the GET method to retrieve data from the server.
 
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
