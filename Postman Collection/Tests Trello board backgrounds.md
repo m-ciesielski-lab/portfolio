@@ -237,7 +237,8 @@ And We have response from Trello API!
 }
 ```
 
-A quick look at response in json, that we got from the app Trello.We have all the query parameters specified, but now need to check two things. Board name and board colour.
+A quick look at response in json, received from the Trello app. We've listed all of the query parameters, but we still need to check two items.
+The name of the board and the color of the board. 
 
 Let's see:
 
