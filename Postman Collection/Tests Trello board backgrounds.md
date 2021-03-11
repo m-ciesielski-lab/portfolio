@@ -277,7 +277,7 @@ In this example we want to create another request, but this time it's only to ch
 
 So, let's add `GET` to our collection.
 
-![GET-board]((https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/GET-board.gif)
+![GET-board](https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/GET-board.gif)
 
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
