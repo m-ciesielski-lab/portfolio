@@ -271,6 +271,14 @@ Next is background board. In json we have key like  `prefs`. And in this key we 
 
 It works! In the next part, we will use the `GET` method to retrieve data from the server.
 
+### `GET` /boards/
+
+In this example we want to create another request, but this time it's only to check information from the response. Our endpoint should include /1/boards/{id} to send a request. we already know that, from Trello docs.
+
+So, let's add `GET` to our collection.
+
+![GET-board]((https://raw.githubusercontent.com/m-ciesielski-lab/portfolio/master/Postman%20Collection/GET-board.gif)
+
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
 ##    Tests tab
