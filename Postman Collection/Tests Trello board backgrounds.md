@@ -282,6 +282,7 @@ So, let's add `GET` to our collection.
 ![Type date](https://i.imgur.com/S0MjTvl.jpg)
 
 ##    Tests tab
+1
 ##    Collection runner. Check the results
 ##    Run Newman and prepare report
 
