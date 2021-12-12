@@ -283,6 +283,7 @@ So, let's add `GET` to our collection.
 
 ##    Tests tab
 1
+2
 ##    Collection runner. Check the results
 ##    Run Newman and prepare report
 
