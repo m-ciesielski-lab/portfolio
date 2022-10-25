@@ -9,7 +9,7 @@ Tester repository
 
 * [Test Cases](https://docs.google.com/spreadsheets/d/18HeMUuabw2MLaa_htemN8Tqo2FxJwA0CDvit4rX_Tvg/edit?usp=sharing)
 
-# API Trello testing in Postmann
+# API Trello testing in Postman
 
 API Trello Documentation - https://developer.atlassian.com/cloud/trello/rest/api-group-boards/
 
